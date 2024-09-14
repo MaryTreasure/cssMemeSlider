@@ -114,4 +114,27 @@ body {
      border: thin #93c1e6 solid;
      background-color: inherit;
   }
+
+  .under-content {
+    display: flex;
+    align-items: center;
+    width: 50vw
+ }
+
+ .slider__item {
+   display: flex;
+   justify-content: center;
+ }
+
+ .slider {
+   width: 50vw;
+ }
+
+ .slider__item img {
+   width: 50vw;
+   border-radius: 0.75rem;
+   object-fit: contain;
+   height: 100%;
+ }
+
  
