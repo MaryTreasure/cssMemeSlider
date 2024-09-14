@@ -137,4 +137,26 @@ body {
    height: 100%;
  }
 
+
+ @media screen and (max-width: 900px) {
+    .container {
+       width: 80vw;
+    }
+ 
+    .description__item {
+       width: 80vw;
+    }
+    .under-content {
+       flex-direction: column-reverse;
+       width: 80vw
+    }
+    .slider {
+       width: 80vw;
+       
+     }
+    
+     .slider__item img {
+       width: 80vw;
+     }
+ }
  
